@@ -1,0 +1,350 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Noto+Sans:wght@500&family=Nunito:wght@300&display=swap');
+
+/* --------NAVBAR-------- */
+
+   *{
+    /* box-sizing: border-box;  */
+    margin: 0;
+    padding: 0;
+     /* background-color: #24252A; */
+     
+  } 
+
+  .logo{
+    font-family:"Montserrat" , sans-serif ;
+    font-weight: 700;
+    font-size: large;
+    color: #edf0f1;
+    cursor: pointer;
+  }
+
+  li,a{
+    font-family: "Montserrat" , sans-serif;
+    font-weight: 500 ;
+    font-size: 14px;
+    color: #edf0f1;
+    text-decoration: none;
+  }
+
+  button{
+    font-family: "Montserrat" , sans-serif;
+    font-weight: 500 ;
+    font-size: 14px;
+    color: #edf0f1;
+    text-decoration: none;
+  }
+
+
+  header{
+    display: flex;
+    overflow: hidden;
+    
+justify-content: space-between;
+align-items: center;
+padding: 30px 10%;
+color: white;
+background-color: #24252A;
+height: 10vh;
+width: 100vw;
+  } 
+
+  .nav_links{
+    list-style: none;
+    position: sticky;
+    /* display: inline;
+    padding: 0px 20px; */
+  }
+
+   .nav_links li{
+     display: inline;
+    padding: 0px 20px; 
+  } 
+
+  .nav_links li a{
+    transition: all 0.3s ease 0s;
+  }
+
+
+  .nav_links a:hover {
+    color:#0088a9
+  }
+  
+  button{
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition:all 0.3s ease 0s ;
+  }
+
+  button:hover{
+    background-color: rgba(0,136,169,0.8);
+  }
+
+  
+
+
+
+  
+
+
+
+
+ 
+ /* .space1{
+
+    height: 2vh;
+    width: 100%;
+    color: white;
+
+} 
+
+.h2_c2{
+    color:black;
+    size: 20rem;
+    
+
+} */
+
+/* --------Page 2--------- */
+
+.crausalwindow{
+    background-color: #27333e;
+}
+
+.mid_content{
+    font-family: "Montserrat" , sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    text-decoration-color: grey;
+    color: #edf0f1;
+    background-color: #24252A;
+    padding: 30px;
+   font-size:  45px;
+}
+
+/* .top{
+  text-size-adjust: 1000px;
+  text-transform: uppercase;
+  font-family: "Montserrat" , sans-serif;
+  /* text-size-adjust: 500px; 
+
+} */
+
+
+.album{
+    background-color: #24252A;
+    color:black;
+}
+.center{
+
+text-align: center;
+}
+
+/* .part3{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.foot{ */
+    
+    .foot{
+        margin: 0;
+        padding: 0;
+        display: flex;
+         align-items: center;
+        justify-content: center; 
+        background-color: #27333e;
+        color: white;
+        
+    }
+    .foot p{
+        padding-top: 16px;
+padding-bottom: 10px;
+    }
+
+    @media only screen and (max-width: 870px){
+      header{
+       display: flex;
+       overflow: hidden;
+          
+      
+      padding: 30px 10%;
+      color: white;
+      background-color: #24252A;
+      height: 20vh;
+      width: 100vw;
+      flex-wrap: wrap;
+      }
+
+
+      .mid_content{
+        font-family: "Montserrat" , sans-serif;
+        display: flex;
+        text-size-adjust: 800px;
+        align-items: center;
+        justify-content: center;
+        text-transform: uppercase;
+        /* text-decoration-color: grey; */
+        color: #edf0f1;
+        background-color: #24252A;
+        padding: 30px;
+        font-size: 35px;
+    }
+    
+  
+  
+  
+  }
+  
+  @media only screen and (max-width: 612px){
+  
+  
+  
+      .logo{
+          font-family:"Montserrat" , sans-serif ;
+          font-weight: 1000;
+          font-size: large;
+          color: #edf0f1;
+          cursor: pointer;
+          text-align: start;
+          
+        }
+  
+        li,a{
+          font-family: "Montserrat" , sans-serif;
+          font-weight: 500 ;
+          font-size: 14px;
+          color: #24252A;
+          text-decoration: none;
+        }
+  
+        header{
+          display: flex;
+          overflow: hidden;
+             
+         
+         padding: 30px 10%;
+         color: white;
+         background-color: #24252A;
+         height: 10vh;
+         width: 100vw;
+         flex-wrap: wrap;
+         font-size: 25px;
+         }
+  
+  }
+    /* @media only screen and (max-width: 706px){
+
+
+      .mid_content{
+        font-family: "Montserrat" , sans-serif;
+        display: flex;
+        text-size-adjust: 500px;
+        align-items: center;
+        justify-content: center;
+        text-transform: uppercase;
+        /* text-decoration-color: grey; 
+        color: #edf0f1;
+        background-color: #24252A;
+        padding: 30px;
+        font-size: 30px;
+    }
+
+    } */
+
+
+    @media only screen and (max-width: 627px){
+
+
+      .mid_content{
+        font-family: "Montserrat" , sans-serif;
+        display: flex;
+        text-size-adjust: 500px;
+        align-items: center;
+        justify-content: center;
+        text-transform: uppercase;
+       text-decoration-color: grey; 
+        color: #edf0f1;
+        background-color: #24252A;
+        padding: 30px;
+        font-size: 20px;
+    }
+
+
+
+
+
+    }
+
+
+    @media only screen and (max-width: 500px){
+
+
+      .mid_content{
+        font-family: "Montserrat" , sans-serif;
+        display: flex;
+        text-size-adjust: 500px;
+        align-items: center;
+        justify-content: center;
+        text-transform: uppercase;
+       text-decoration-color: grey; 
+        color: #edf0f1;
+        background-color: #24252A;
+        padding: 30px;
+        font-size: 15px;
+    }
+  }
+
+    @media only screen and (max-width: 303px){
+
+      .mid_content{
+        font-family: "Montserrat" , sans-serif;
+        display: flex;
+        text-size-adjust: 500px;
+        align-items: center;
+        justify-content: center;
+        text-transform: uppercase;
+       text-decoration-color: grey; 
+        color: #edf0f1;
+        background-color: #24252A;
+        padding: 30px;
+        font-size: 10px;
+    }
+
+      
+
+
+
+    }
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* https://source.unsplash.com/1400x600/?sahyadri */
